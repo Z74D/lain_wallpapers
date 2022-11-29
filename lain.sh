@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir ~/lain/exc/ ~/lain/wallpapers/
-cd ~/lain/wallpapers/
+mkdir ~/lain_wallpapers/exc/ ~/lain_wallpapers/wallpapers/
+cd ~/lain_wallpapers/wallpapers/
 
 page=1
 while [ $page -le 7 ]
@@ -14,5 +14,5 @@ done
 echo "Download Successful!"
 echo "Wallpapers are in ~/lain/wallpapers/"
 
-mv ~/lain_wallpapers/lain.sh ~/lain/exc/
+mv ~/lain_wallpapers/lain.sh ~/lain_wallpapers/exc/
 
